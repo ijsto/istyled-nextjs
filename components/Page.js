@@ -6,23 +6,10 @@ import Footer from "./layout/Footer";
 import theme from "../lib/theme";
 
 const GlobalStyle = createGlobalStyle`
-  @font-face {
-    font-family: 'Neutra Text';
-    src: url('/font/Neutra-Text-Bold.otf') format('otf');
-    font-weight: 300;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Comfortaa';
-    src: url('/font/Comfortaa-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
   body {
     padding: 0;
     margin: 0;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
     background: ${({ theme }) => theme.primaryBgCol};
     min-height: 100vh;
     padding-top: 64px;
@@ -77,7 +64,7 @@ const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'Neutra Text', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin-top: 1em;
     color: #00474b;
     font-weight: 400;
@@ -104,7 +91,7 @@ const GlobalStyle = createGlobalStyle`
     border-radius: 2px;
     box-sizing: border-box;
     color: rgb(0, 0, 0);
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', sans-serif;
     font-size: 20px;
     -webkit-appearance: none;
     line-height: 1.3;
