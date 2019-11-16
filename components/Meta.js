@@ -7,7 +7,7 @@ export const Meta = () => {
         <title>iJS.to - Modern Javascript Courses</title>
 
         <link
-          href="https://fonts.googleapis.com/css?family=Comfortaa|Source+Sans+Pro:700&display=swap"
+          href="https://fonts.googleapis.com/css?family=Space+Mono|Source+Sans+Pro:700&display=swap"
           rel="stylesheet"
         />
         <link rel="shortcut icon" href="/favicon.png" />
@@ -15,6 +15,15 @@ export const Meta = () => {
         <meta charSet="utf-8" />
       </Head>
       <style jsx global>{`
+        * {
+          font-family: "Space Mono", sans-serif;
+          box-sizing: border-box;
+          color: #776677;
+          margin: 0;
+          padding: 0;
+          transition: 0.3s all;
+        }
+
         h1,
         h2,
         h3,
@@ -32,22 +41,8 @@ export const Meta = () => {
           margin: 1em auto;
         }
 
-        * {
-          font-family: "Comfortaa", sans-serif;
-          box-sizing: border-box;
-          color: #776677;
-          margin: 0;
-          padding: 0;
-          transition: 0.3s all;
-        }
-
         a:hover {
           color: orange;
-        }
-
-        .content {
-          padding: 2em 3em;
-          padding-bottom: 300px;
         }
       `}</style>
     </>
