@@ -1,6 +1,6 @@
-import Meta from './Meta';
-import Header from './Header';
-import Footer from './Footer';
+import Meta from "./Meta";
+import Header from "./layout/Header";
+import Footer from "./layout/Footer";
 
 const Page = ({ children }) => {
   return (
