@@ -1,6 +1,5 @@
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
-import Jumbo from "../components/dataDisplay/Jumbo";
 
 import styled from "styled-components";
 
