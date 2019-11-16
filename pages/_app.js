@@ -25,7 +25,10 @@ const GlobalStyle = createGlobalStyle`
   a:hover {
     color: orange
   }
-  code {
+  pre {
+    padding: 2em !important;
+  }
+  code,pre {
     * {
         line-height: 1.5;
     }

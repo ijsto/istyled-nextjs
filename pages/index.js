@@ -1,8 +1,13 @@
-export default () => (
-  <>
-    <div>
-      <h1>Your first NextJS app</h1>
-      <div>Have fun and build stuff!</div>
+import Jumbo from "../components/dataDisplay/Jumbo";
+
+export default () => {
+  return (
+    <div style={{ maxWidth: "90%", margin: "0 auto" }}>
+      <Jumbo>
+        <h1>iNextJS + Styled-Components /></h1>
+      </Jumbo>
+
+      <input placeholder="Type in something nice" type="text" />
 
       <a href="https://ijs.to/courses/" target="_blank">
         <h2>Learn code on iJS.to</h2>
@@ -30,5 +35,5 @@ export default () => (
         </li>
       </ul>
     </div>
-  </>
-);
+  );
+};
