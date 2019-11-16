@@ -9,7 +9,7 @@ export const About = () => {
       <p>
         With Next.js, React pages are automatically rendered on both client and
         server side, without the hassle of setting up dependancies like webpack
-        or babel and with automatic routing.{" "}
+        or babel and with automatic routing.
       </p>
       <p>
         This is a simple starter project that demonstrates how to use NextJS
