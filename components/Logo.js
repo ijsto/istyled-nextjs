@@ -7,7 +7,7 @@ const StyledLogo = styled.div`
     position: absolute;
     top: 1em;
     left: 4em;
-    width: ${({ size }) => (size ? size : "64px")};
+    width: 64px;
     rect {
       fill: #ff6666;
     }
@@ -28,7 +28,7 @@ const StyledLogo = styled.div`
 
 export const Logo = ({ size }) => {
   return (
-    <StyledLogo size={size}>
+    <StyledLogo>
       <svg
         baseProfile="tiny"
         version="1.1"

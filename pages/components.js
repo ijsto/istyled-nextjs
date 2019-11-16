@@ -1,3 +1,6 @@
+import Card from "../components/dataDisplay/Card";
+import Button from "../components/common/Button";
+
 export const Components = () => {
   return (
     <div>
@@ -5,6 +8,11 @@ export const Components = () => {
       <p>Included are a few free components for you to use or delete! :{")"}</p>
       <h2>{"<Card />"}</h2>
       <code>./components/dataDisplay/Card</code>
+      <Card
+        title="Card Sample"
+        width="300px"
+        image="https://ijs.to/images/PLACEHOLDER_COURSE_IMAGE.jpg"
+      ></Card>
       <p>
         Basic card component, accepts props:
         <ul style={{ margin: "1em 0 0 2em" }}>
@@ -17,9 +25,7 @@ export const Components = () => {
             </code>
           </li>
           <li>
-            <code>
-              content={"{}"} // also - {"{children}"}
-            </code>
+            <code>width={"{}"} // adds width to the card</code>
           </li>
         </ul>
       </p>
@@ -31,12 +37,16 @@ export const Components = () => {
       </p>
       <h2>{"<Button />"}</h2>
       <code>./components/dataDisplay/Button.js</code>
+      <p>
+        <Button>I'm a button</Button>
+      </p>
       <p>A much useful button component</p>
       <h2>{"<Header />"}</h2>
       <code>./components/layout/Header.js</code>
+      <p>I'm the header of this website.</p>
       <h2>{"<Footer />"}</h2>
       <code>./components/layout/Footer.js</code>
-
+      <p>I'm the footer of this website.</p>
       <h3 style={{ marginTop: "3em" }}>Other freebies</h3>
       <h2>
         <code>{"<input />"}</code>, <code>{"<textarea />"}</code> styles
@@ -45,9 +55,6 @@ export const Components = () => {
         Beautiful input and textarea styles, defined in {"<GlobalStyle />"}{" "}
         component located in <code>./components/Page.js</code>
       </p>
-
-      <h2>Themeing</h2>
-      <p>Basic setup for theming with Next.js and Styled-Components.</p>
     </div>
   );
 };
