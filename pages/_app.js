@@ -4,6 +4,14 @@ import { createGlobalStyle } from "styled-components";
 import DefaultLayout from "../layouts/DefaultLayout";
 
 const GlobalStyle = createGlobalStyle`
+  * {
+    box-sizing: border-box;
+    transition: 0.3s all;
+    color: #333644;
+  }
+  a:hover {
+    color: orange
+  }
   body {
     padding: 0;
     margin: 0;
@@ -12,21 +20,6 @@ const GlobalStyle = createGlobalStyle`
     min-height: 100vh;
     padding-top: 64px;
     position: relative;
-  }
-
-  * {
-    box-sizing: border-box;
-    color: #333644;
-    margin: 0;
-    padding: 0;
-    transition: 0.3s all;
-  }
-
-  a:hover {
-    color: orange
-  }
-  pre {
-    padding: 2em !important;
   }
   code,pre {
     * {
@@ -38,15 +31,19 @@ const GlobalStyle = createGlobalStyle`
     background-color: rgba(27, 31, 35, 0.05);
     border-radius: 3px;
   }
-
-  .input-row {
-    div {
-      display: flex;
-      flex-direction: column;
-    }
-    margin-bottom: 0.75em;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 1em;
+    color: #00474b;
+    font-weight: 600;
+    text-shadow: 2px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+      1px -2px 0 #fff;
   }
-  
   h1 {
     font-size: 3.5em;
     letter-spacing: -3px;
@@ -63,32 +60,12 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.75em;
     letter-spacing: 1px;
   }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-top: 1em;
-    color: #00474b;
-    font-weight: 600;
-    text-shadow: 2px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
-      1px -2px 0 #fff;
-  }
   h4,
   h5,
   h6 {
     text-shadow: 0px -2px 0 #fff, 0px -0px 0 #fff, -1px 0px 2 #fff,
       0px 1px 0 #fff;
   }
-
-  label {
-    margin: 0.7em;
-    font-size: 0.75em;
-  }
-  
   input, textarea {
     background: white;
     border: 0;
@@ -115,6 +92,13 @@ const GlobalStyle = createGlobalStyle`
       box-shadow: rgb(187, 187, 187) 0px 0px 5px 2px;
       border-color: #8a74d0;
     }
+  }
+  label {
+    margin: 0.7em;
+    font-size: 0.75em;
+  }
+  pre {
+    padding: 2em !important;
   }
 `;
 

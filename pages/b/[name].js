@@ -1,3 +1,5 @@
+import SingleBookLayout from "../../layouts/SingleBookLayout";
+
 const SingleBook = ({ query }) => {
   return (
     <div>
@@ -18,6 +20,7 @@ const SingleBook = ({ query }) => {
   );
 };
 
+SingleBook.Layout = SingleBookLayout;
 SingleBook.getInitialProps = async ({ query }) => {
   // Visit https://iJS.to to learn how to use fetch in getInitialProps
 
