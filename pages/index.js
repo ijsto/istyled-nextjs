@@ -15,7 +15,7 @@ export default () => {
       <ul>
         <li>
           <a href="https://ijs.to/courses/nextjs" target="_blank">
-            NextJS
+            Next.js
           </a>
         </li>
         <li>

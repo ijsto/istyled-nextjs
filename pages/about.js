@@ -1,10 +1,10 @@
 export const About = () => {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About iStyled NextJS</h1>
       <p>
-        NextJS is a framework that makes it easy to create Universal web apps in
-        React.
+        Next.js is a framework that makes it easy to create Universal web apps
+        in React.
       </p>
       <p>
         With Next.js, React pages are automatically rendered on both client and
@@ -12,10 +12,8 @@ export const About = () => {
         or babel and with automatic routing.
       </p>
       <p>
-        This is a simple starter project that demonstrates how to use NextJS
-        with custom layout and some modular styles via{" "}
-        <code>{"<style jsx />"}</code> and <code>{"<style global jsx />"}</code>{" "}
-        tags.
+        This is a Next.js starter project pre-configured to work with
+        Styled-Components and includes custom layout setup.
       </p>
       <h2>Get Started (3 minutes)</h2>
       <ul>

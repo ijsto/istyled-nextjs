@@ -1,4 +1,4 @@
-<h1 align="center">NextJS Starter with dynamic layouts</h1>
+<h1 align="center">Next.js Starter with dynamic layouts</h1>
 
 [![github follow](https://img.shields.io/github/followers/ijsto?color=%23ff665a&label=Follow%20iJS.to&logo=github&style=for-the-badge)](https://github.com/ijsto)
 [![ijs](https://img.shields.io/badge/learn%20code-black?&message=Courses&style=for-the-badge&label=ijs.to&colorA=FF6666&colorB=776677)](https://ijs.to)
@@ -8,13 +8,15 @@ This is a free Next.js starter project with dynamic layouts by [iJS.to](https://
 
 This project features the following:
 
-- NextJS app with dynamic layouts handled by components in `layouts/` folder.
+- Next.js app with dynamic layouts handled by components in `layouts/` folder.
 
 - custom \_app.js file to support the layouts component
 
 - Modular CSS examples
 
 - dynamic and static page examples
+
+- setup to work with Styled Components />
 
 You can see a live demo of this repo at [istyled-nextjs.now.sh](https://istyled-nextjs.now.sh/)
 

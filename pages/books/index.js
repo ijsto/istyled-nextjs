@@ -4,7 +4,7 @@ const Books = () => {
   return (
     <div>
       <h1>Dynamic Links</h1>
-      <p>The link below is a dynamic NextJS link.</p>
+      <p>The link below is a dynamic Next.js link.</p>
 
       <h1>Books Catalogue</h1>
 
