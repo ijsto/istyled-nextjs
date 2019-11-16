@@ -44,11 +44,6 @@ export const Meta = () => {
         a:hover {
           color: orange;
         }
-
-        .content {
-          padding: 2em 3em;
-          padding-bottom: 300px;
-        }
       `}</style>
     </>
   );

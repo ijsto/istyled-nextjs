@@ -23,9 +23,6 @@ const StyledFooter = styled.footer`
   .whatisthis {
     margin-top: 3em;
   }
-  .madein {
-    font-size: 0.75em;
-  }
 `;
 const StyledFooterButton = styled.div`
   bottom: 0;
