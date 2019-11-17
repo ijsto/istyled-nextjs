@@ -12,8 +12,6 @@ This project features the following:
 
 - custom \_app.js file to support the layouts component
 
-- Modular CSS examples
-
 - dynamic and static page examples
 
 - setup to work with Styled Components />
