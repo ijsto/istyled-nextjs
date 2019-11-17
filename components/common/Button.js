@@ -1,23 +1,17 @@
-import styled, { css } from "styled-components";
-
-const buttonStyles = () => {
-  return css`
-    border-radius: 4px;
-    border: 0;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 1.25em;
-    padding: 0.5em 1.2em;
-    &:focus,
-    &:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-    }
-  `;
-};
+import styled from "styled-components";
 
 const StyledButton = styled.button`
-  ${buttonStyles};
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.25em;
+  padding: 0.5em 1.2em;
+  &:focus,
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  }
 `;
 
 export const Button = ({ children, ...props }) => {
