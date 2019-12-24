@@ -6,13 +6,16 @@ import DefaultLayout from "../layouts/DefaultLayout";
 const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
-    transition: 0.3s all;
+  }
+  a {
     color: #333644;
+    transition: 0.3s all;
   }
   a:hover {
     color: orange
   }
   body {
+    color: #333644;
     padding: 0;
     margin: 0;
     font-family: 'Space Mono', sans-serif;

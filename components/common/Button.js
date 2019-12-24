@@ -7,6 +7,7 @@ const StyledButton = styled.button`
   font-weight: 600;
   font-size: 1.25em;
   padding: 0.5em 1.2em;
+  transition: all 0.15s;
   &:focus,
   &:hover {
     transform: translateY(-1px);
