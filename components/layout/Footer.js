@@ -1,8 +1,8 @@
-import { useState } from "react";
-import styled from "styled-components";
+import { useState } from 'react';
+import styled from 'styled-components';
 
-import Socials from "../Socials";
-import Button from "../common/Button";
+import Socials from '../Socials';
+import Button from '../common/Button';
 
 const StyledFooter = styled.footer`
   background: #8a74d0;
@@ -40,7 +40,7 @@ const StyledFooterButton = styled.div`
   }
 `;
 
-export const Footer = () => {
+const Footer = () => {
   const [showFooter, setShow] = useState(false);
   return (
     <>
@@ -50,7 +50,11 @@ export const Footer = () => {
             <Socials />
 
             <div className="whatisthis">
-              <a href="https://ijs.to" target="_blank">
+              <a
+                href="https://ijs.to"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 iJS.to
               </a>
             </div>

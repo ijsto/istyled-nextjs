@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-import styled from "styled-components";
-import Logo from "../Logo";
-import Meta from "../Meta";
+import styled from 'styled-components';
+import Logo from '../Logo';
+import Meta from '../Meta';
 
 const StyledHeader = styled.header`
   align-items: center;
@@ -35,13 +35,13 @@ const StyledHeader = styled.header`
   }
 `;
 
-export const Header = () => {
+const Header = () => {
   return (
     <StyledHeader>
       <Meta />
       <Link href="/">
         <a className="logo">
-          <Logo></Logo>
+          <Logo />
         </a>
       </Link>
       <div>

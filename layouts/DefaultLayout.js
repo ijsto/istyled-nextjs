@@ -1,7 +1,6 @@
-import Header from "../components/layout/Header";
-import Footer from "../components/layout/Footer";
-
-import styled from "styled-components";
+import styled from 'styled-components';
+import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
 
 const PageContentWrapper = styled.div`
   margin: 0 auto;

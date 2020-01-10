@@ -1,10 +1,12 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-export const Meta = () => {
+const Meta = () => {
   return (
     <>
       <Head>
-        <title>iStyled Next.js - Boilerplate for Next.js with Styled-Components</title>
+        <title>
+          iStyled Next.js - Boilerplate for Next.js with Styled-Components
+        </title>
 
         <link rel="shortcut icon" href="/favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

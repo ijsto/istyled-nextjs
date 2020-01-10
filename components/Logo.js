@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const StyledLogo = styled.div`
   svg {
@@ -26,7 +26,7 @@ const StyledLogo = styled.div`
   }
 `;
 
-export const Logo = ({ size }) => {
+const Logo = () => {
   return (
     <StyledLogo>
       <svg
