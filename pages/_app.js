@@ -1,7 +1,7 @@
-import App from "next/app";
+import App from 'next/app';
 
-import { createGlobalStyle } from "styled-components";
-import DefaultLayout from "../layouts/DefaultLayout";
+import { createGlobalStyle } from 'styled-components';
+import DefaultLayout from '../layouts/DefaultLayout';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -118,6 +118,7 @@ class AppWrapper extends App {
 
     return { pageProps };
   }
+
   render() {
     const { Component, pageProps } = this.props;
     const Layout = Component.Layout || DefaultLayout;

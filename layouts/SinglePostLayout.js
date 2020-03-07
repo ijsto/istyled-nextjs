@@ -1,7 +1,6 @@
-import Header from "../components/layout/Header";
-import Footer from "../components/layout/Footer";
-
-import styled from "styled-components";
+import styled from 'styled-components';
+import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
 
 const StyledSinglePostWrapper = styled.div`
   display: flex;

@@ -18,7 +18,7 @@ export const About = () => {
       <h2>Get Started (3 minutes)</h2>
       <ul>
         <li>
-          1. Clone the the{" "}
+          1. Clone the the{' '}
           <a href="https://github.com/ijsto/istyled-nextjs">starter repo</a>
           <p>
             <code>git clone git@github.com:ijsto/istyled-nextjs.git</code>
@@ -43,7 +43,7 @@ export const About = () => {
           </p>
         </li>
         <li>
-          Starter project is live at:{" "}
+          Starter project is live at:{' '}
           <a href="http://localhost:3000">http://localhost:3000</a>
         </li>
       </ul>

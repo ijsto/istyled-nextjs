@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const StyledButton = styled.button`
   border-radius: 4px;
@@ -15,7 +15,7 @@ const StyledButton = styled.button`
   }
 `;
 
-export const Button = ({ children, ...props }) => {
+const Button = ({ children, ...props }) => {
   return (
     <StyledButton {...props}>
       <div>

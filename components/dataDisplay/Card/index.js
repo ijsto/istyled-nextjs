@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const StyledCard = styled.div`
   border: 1px solid transparent;
@@ -20,14 +20,14 @@ const StyledCard = styled.div`
   }
 `;
 
-export const Card = ({ children, image, title, width }) => {
+const Card = ({ children, image, title, width }) => {
   return (
     <StyledCard width={width}>
-      {image && <img src={image} />}
+      {image && <img src={image} alt={title} />}
       <div className="card-body">
         <div>
           {title && <h3>{title}</h3>}
-          {children || "Card Content"}
+          {children || 'Card Content'}
         </div>
       </div>
     </StyledCard>
