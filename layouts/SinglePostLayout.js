@@ -3,41 +3,41 @@ import Footer from "../components/layout/Footer";
 
 import styled from "styled-components";
 
-const StyledSingleBookWrapper = styled.div`
+const StyledSinglePostWrapper = styled.div`
   display: flex;
   justify-content: center;
   padding-bottom: 300px;
 `;
-const StyledSingleBook = styled.div`
+const StyledSinglePost = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   max-width: 680px;
 `;
-const StyledSingleBookHeader = styled.div`
+const StyledSinglePostHeader = styled.div`
+  background: #F2CB05;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 150px;
-  background: #6bcd9b;
   h1 {
-    color: white;
+    color: #333644;
     text-shadow: none;
   }
 `;
 
-const SingleBookLayout = ({ children }) => (
+const SinglePostLayout = ({ children }) => (
   <>
     <Header />
 
-    <StyledSingleBookHeader>
-      <h1>Single Book View</h1>
-    </StyledSingleBookHeader>
+    <StyledSinglePostHeader>
+      <h1>Single Post View</h1>
+    </StyledSinglePostHeader>
 
-    <StyledSingleBookWrapper>
-      <StyledSingleBook>{children}</StyledSingleBook>
-    </StyledSingleBookWrapper>
+    <StyledSinglePostWrapper>
+      <StyledSinglePost>{children}</StyledSinglePost>
+    </StyledSinglePostWrapper>
     <Footer></Footer>
   </>
 );
 
-export default SingleBookLayout;
+export default SinglePostLayout;

@@ -1,6 +1,6 @@
-import SingleBookLayout from "../../layouts/SingleBookLayout";
+import SinglePostLayout from "../../layouts/SinglePostLayout";
 
-const SingleBook = ({ query }) => {
+const SinglePost = ({ query }) => {
   return (
     <div>
       <h1>
@@ -20,11 +20,11 @@ const SingleBook = ({ query }) => {
   );
 };
 
-SingleBook.Layout = SingleBookLayout;
-SingleBook.getInitialProps = async ({ query }) => {
+SinglePost.Layout = SinglePostLayout;
+SinglePost.getInitialProps = async ({ query }) => {
   // Visit https://iJS.to to learn how to use fetch in getInitialProps
 
   return { query };
 };
 
-export default SingleBook;
+export default SinglePost;
