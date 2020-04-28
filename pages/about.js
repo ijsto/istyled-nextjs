@@ -21,7 +21,7 @@ export const About = () => {
           1. Clone the the{' '}
           <a href="https://github.com/ijsto/istyled-nextjs">starter repo</a>
           <p>
-            <code>git clone git@github.com:ijsto/istyled-nextjs.git</code>
+            <code>git clone https://github.com/ijsto/istyled-nextjs.git</code>
           </p>
         </li>
         <li>
