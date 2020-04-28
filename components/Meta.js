@@ -5,7 +5,7 @@ const Meta = () => {
     <>
       <Head>
         <title>
-          iStyled Next.js - Boilerplate for Next.js with Styled-Components
+          iStyled Next.js | iJS Boilerplate for Next.js with Styled-Components
         </title>
 
         <link rel="shortcut icon" href="/favicon.png" />

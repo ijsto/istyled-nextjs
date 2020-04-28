@@ -9,19 +9,15 @@ export default () => {
 
       <input placeholder="Type in something nice" type="text" />
 
-      <a
-        href="https://ijs.to/courses/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <h2>Learn code on iJS.to</h2>
+      <a href="https://ijs.to/" rel="noopener noreferrer" target="_blank">
+        <p>Learn code on iJS.to</p>
       </a>
       <ul>
         <li>
           <a
             href="https://ijs.to/courses/nextjs"
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
           >
             Next.js
           </a>
@@ -29,8 +25,8 @@ export default () => {
         <li>
           <a
             href="https://ijs.to/courses/react"
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
           >
             React
           </a>
@@ -38,8 +34,8 @@ export default () => {
         <li>
           <a
             href="https://ijs.to/courses/graphql"
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
           >
             GraphQL
           </a>
@@ -47,8 +43,8 @@ export default () => {
         <li>
           <a
             href="https://ijs.to/courses/"
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
           >
             and other courses
           </a>
