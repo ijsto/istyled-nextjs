@@ -40,7 +40,7 @@ const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Spartan', sans-serif;
     margin-top: 1em;
     color: #00474b;
     font-weight: 600;
@@ -70,6 +70,7 @@ const GlobalStyle = createGlobalStyle`
       0px 1px 0 #fff;
   }
   input, textarea {
+    appearance: none;
     background: white;
     border: 0;
     border-color: rgb(209, 218, 225);
@@ -79,7 +80,6 @@ const GlobalStyle = createGlobalStyle`
     color: rgb(0, 0, 0);
     font-family: 'Space Mono', sans-serif;
     font-size: 20px;
-    -webkit-appearance: none;
     line-height: 1.3;
     margin: 0px;
     max-width: 100%;
