@@ -46,9 +46,14 @@ export const About = () => {
           Starter project is live at:{' '}
           <a href="http://localhost:3000">http://localhost:3000</a>
         </li>
+
+        
+        <li>
+          Live demo: <a href="https://istyled-nextjs.now.sh/">istyled-nextjs.now.sh</a>
+        </li>
       </ul>
 
-      <h2>The starter is now ready - have fun!</h2>
+      <h2 style={{marginTop: 32}}>The starter is now ready - have fun!</h2>
     </div>
   );
 };

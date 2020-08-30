@@ -53,7 +53,7 @@ const Socials = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.facebook.com/IJS-349806719022014"
+          href="https://www.facebook.com/ijstodev"
         >
           <img src="/icon/facebook.png" alt="ijs-facebook" className="icon" />
         </a>
