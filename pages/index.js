@@ -1,6 +1,6 @@
 import Jumbo from '../components/dataDisplay/Jumbo';
 
-export default () => {
+const App = () => {
   return (
     <div style={{ maxWidth: '90%', margin: '0 auto' }}>
       <Jumbo>
@@ -53,3 +53,5 @@ export default () => {
     </div>
   );
 };
+
+export default App
