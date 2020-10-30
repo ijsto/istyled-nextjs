@@ -14,7 +14,7 @@ const Posts = () => {
             https://iJS.to
             learn more about dynamic routes
         */}
-        <Link href="/p/[name]" as="/p/everybody-writes">
+        <Link href="/p/everybody-writes">
           <a>1. Everybody Writes</a>
         </Link>
       </p>
