@@ -13,7 +13,7 @@ const StyledSinglePost = styled.div`
   max-width: 680px;
 `;
 const StyledSinglePostHeader = styled.div`
-  background: #F2CB05;
+  background: #f2cb05;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ const SinglePostLayout = ({ children }) => (
     <StyledSinglePostWrapper>
       <StyledSinglePost>{children}</StyledSinglePost>
     </StyledSinglePostWrapper>
-    <Footer></Footer>
+    <Footer />
   </>
 );
 
